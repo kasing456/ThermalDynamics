@@ -1,10 +1,10 @@
 #zh_TW
 
-
-
-
-
-
+gui.thermaldynamics.transport.config=配置
+gui.thermaldynamics.transport.name=旅行管道
+gui.thermaldynamics.transport.noDest=未設定目的地
+gui.thermaldynamics.transport.unnamed=未命名
+gui.thermaldynamics.transport.waiting=等待詳細信息
 
 info.thermaldynamics.capacitance=容量
 
@@ -13,44 +13,95 @@ info.thermaldynamics.duct.crafting=合成用物品.
 info.thermaldynamics.duct.dense=大幅增加路徑長度.
 info.thermaldynamics.duct.energy=傳輸RF.
 info.thermaldynamics.duct.fluid=傳輸液體.
-info.thermaldynamics.duct.item=傳輸物品.
-info.thermaldynamics.duct.structure=提供外部架構.
-info.thermaldynamics.duct.vacuum=大幅降低路徑長度.
+info.thermaldynamics.duct.fluidEnergy=可同時傳輸液體和RF。
+info.thermaldynamics.duct.item=傳輸物品。
+info.thermaldynamics.duct.itemEnergy=可同時傳輸物品和RF。
+info.thermaldynamics.duct.light=有紅石信號時發光。
+info.thermaldynamics.duct.structure=用於建築結構。
+info.thermaldynamics.duct.transport=傳輸玩家。嗖——
+info.thermaldynamics.duct.transportCrossover=用於定義旅行管道的端點，所以是必須的。
+info.thermaldynamics.duct.transportLongRange=讓玩家可以快速往返於兩個特定位置之間。
+info.thermaldynamics.duct.vacuum=顯著縮短路徑長度。
 
-info.thermaldynamics.filter.antiSpam.0=允許過度傳送
-info.thermaldynamics.filter.antiSpam.1=防止過度傳送
-info.thermaldynamics.filter.decRetainSize=減少最大保留物品數
-info.thermaldynamics.filter.incRetainSize=增加最大保留物品數
-info.thermaldynamics.filter.metadata.off=使用中繼資料
-info.thermaldynamics.filter.metadata.on=忽略中繼資料
-info.thermaldynamics.filter.metadata=中繼資料
-info.thermaldynamics.filter.modSorting.off=使用所屬模組
-info.thermaldynamics.filter.modSorting.on=忽略所屬模組
-info.thermaldynamics.filter.modSorting=所屬模組
-info.thermaldynamics.filter.nbt.off=使用 NBT
-info.thermaldynamics.filter.nbt.on=忽略 NBT
+info.thermaldynamics.filter.antiSpam.0=允許超額發送
+info.thermaldynamics.filter.antiSpam.1=阻止超額發送
+info.thermaldynamics.filter.decRetainSize=減少物品欄內最大物品數量
+info.thermaldynamics.filter.incRetainSize=增加物品欄內最大物品數量
+info.thermaldynamics.filter.metadata.off=匹配數據值
+info.thermaldynamics.filter.metadata.on=忽略數據值
+info.thermaldynamics.filter.metadata=數據值
+info.thermaldynamics.filter.modSorting.off=匹配MOD歸屬
+info.thermaldynamics.filter.modSorting.on=忽略MOD歸屬
+info.thermaldynamics.filter.modSorting=MOD歸屬
+info.thermaldynamics.filter.nbt.off=匹配NBT
+info.thermaldynamics.filter.nbt.on=忽略NBT
 info.thermaldynamics.filter.nbt=NBT
-info.thermaldynamics.filter.oreDict.off=使用礦物辭典
-info.thermaldynamics.filter.oreDict.on=忽略礦物辭典
-info.thermaldynamics.filter.oreDict=礦物辭典
-info.thermaldynamics.filter.routeType.0=最接近的優先
-info.thermaldynamics.filter.routeType.1=最遙遠的優先
+info.thermaldynamics.filter.options=過濾器選項
+info.thermaldynamics.filter.oreDict.off=匹配礦物字典
+info.thermaldynamics.filter.oreDict.on=忽略礦物字典
+info.thermaldynamics.filter.oreDict=礦物字典
+info.thermaldynamics.filter.routeType.0=最近容器優先
+info.thermaldynamics.filter.routeType.1=最遠容器優先
 info.thermaldynamics.filter.routeType.2=隨機
-info.thermaldynamics.filter.routeType.3=輪循
+info.thermaldynamics.filter.routeType.3=列表循環
 info.thermaldynamics.filter.whiteList.off=白名單
 info.thermaldynamics.filter.whiteList.on=黑名單
 info.thermaldynamics.filter.whiteList=黑名單
 info.thermaldynamics.filter.zeroRetainSize=無限
 
-info.thermaldynamics.servo.decStackSize=減少抽取堆疊數量
-info.thermaldynamics.servo.extractRate=抽出率
-info.thermaldynamics.servo.incStackSize=增加抽取堆疊數量
+info.thermaldynamics.info.attachment=- 附加信息 -
+info.thermaldynamics.info.duct=- 管道信息 -
+info.thermaldynamics.info.energy=RF
+info.thermaldynamics.info.fluid=液體
+info.thermaldynamics.info.fluidThroughput=最大液體吞吐量
+info.thermaldynamics.info.invalid=非法
+info.thermaldynamics.info.invalidCover=放置在合成方格中來轉換成石頭覆蓋板.
+info.thermaldynamics.info.items=物品
+info.thermaldynamics.info.redstone=紅石
+info.thermaldynamics.info.size=尺寸
+info.thermaldynamics.info.tracker.activate=開始追踪
+info.thermaldynamics.info.tracker.avg=5秒內平均水平
+info.thermaldynamics.info.tracker.avgInOut=5秒內平均I/O
+info.thermaldynamics.info.tracker.cur=當前水平
+
+info.thermaldynamics.relay.color.0=紅
+info.thermaldynamics.relay.color.1=綠
+info.thermaldynamics.relay.color.2=棕
+info.thermaldynamics.relay.color.3=藍
+info.thermaldynamics.relay.color.4=紫
+info.thermaldynamics.relay.color.5=青
+info.thermaldynamics.relay.color.6=淺灰
+info.thermaldynamics.relay.color.7=灰
+info.thermaldynamics.relay.color.8=粉
+info.thermaldynamics.relay.color.9=淺綠
+info.thermaldynamics.relay.color.10=黃
+info.thermaldynamics.relay.color.11=淺藍
+info.thermaldynamics.relay.color.12=紫紅
+info.thermaldynamics.relay.color.13=橙
+info.thermaldynamics.relay.color.14=白
+info.thermaldynamics.relay.color.15=黑
+info.thermaldynamics.relay.gridRS=傳導信號
+info.thermaldynamics.relay.invert.0=比例
+info.thermaldynamics.relay.invert.1=反轉比例
+info.thermaldynamics.relay.invert.2=閾值
+info.thermaldynamics.relay.invert.3=反轉閾值
+info.thermaldynamics.relay.relayRS=中繼信號
+info.thermaldynamics.relay.threshold=閾值 >=
+info.thermaldynamics.relay.type.0=紅石信號輸入
+info.thermaldynamics.relay.type.1=紅石信號輸出
+info.thermaldynamics.relay.type.2=比較器信號輸入
+
+info.thermaldynamics.servo.decStackSize=減少抽取物品堆疊數量
+info.thermaldynamics.servo.extractRate=抽取速率
+info.thermaldynamics.servo.incStackSize=增加抽取物品堆疊數量
 info.thermaldynamics.servo.maxStackSize=最大堆疊數量
 info.thermaldynamics.servo.redstoneExt=需要紅石信號
-info.thermaldynamics.servo.redstoneInt=內部紅石控制
-info.thermaldynamics.servo.slotMulti=抽出多格的物品.
-info.thermaldynamics.servo.slotSingle=抽出單格的物品.
-info.thermaldynamics.servo.speedBoost=速度提升
+info.thermaldynamics.servo.redstoneInt=內建紅石控制
+info.thermaldynamics.servo.slotMulti=從多個格子中提取。
+info.thermaldynamics.servo.slotSingle=從單一格子中提取。
+info.thermaldynamics.servo.speedBoost=速度加成
+
+info.thermaldynamics.toggle=右擊以切換模式。
 
 info.thermaldynamics.transfer=傳輸
 info.thermaldynamics.transferConnection=每個連接導管的傳輸量.
@@ -64,6 +115,9 @@ item.thermaldynamics.filter.2.name=強化過濾器
 item.thermaldynamics.filter.3.name=信素過濾器
 item.thermaldynamics.filter.4.name=諧律過濾器
 item.thermaldynamics.filter.info=限制哪些東西可以通過它.
+
+item.thermaldynamics.relay.info=傳輸紅石信號。
+item.thermaldynamics.relay.name=紅石信號中繼器
 
 item.thermaldynamics.retriever.0.name=接收器
 item.thermaldynamics.retriever.1.name=硬化接收器
@@ -80,8 +134,16 @@ item.thermaldynamics.servo.4.name=諧律伺服
 item.thermaldynamics.servo.info=從設備抽取物品/液體.
 
 itemGroup.thermaldynamics.creativeTab=精煉機械動力學
+itemGroup.thermaldynamics.creativeTabCovers=精煉機械動力學：覆蓋板
 
 recipe.thermaldynamics.covers=覆蓋板合成
+
+tab.thermaldynamics.conChange=按住 Shift 同時使用鼠標左右鍵來調整合適的數量
+tab.thermaldynamics.filterItem.0=控制哪些物品能夠允許進入連接的容器。
+tab.thermaldynamics.retrieverItem.0=收集管網內的物品，並輸入相鄰的容器中。
+tab.thermaldynamics.retrieverItem.1=可在過濾選項中限制收集的物品種類。
+tab.thermaldynamics.servoItem.0=從連接容器中提取物品。
+tab.thermaldynamics.servoItem.1=可在過濾選項中限制提取的物品種類。
 
 tile.thermaldynamics.duct.dense.name=密集 %s
 
@@ -91,7 +153,8 @@ tile.thermaldynamics.duct.energyReinforced.name=紅石能量導管
 tile.thermaldynamics.duct.energyReinforcedEmpty.name=紅石能量導管 (空)
 tile.thermaldynamics.duct.energyResonant.name=諧律紅石能量導管
 tile.thermaldynamics.duct.energyResonantEmpty.name=諧律能量導管 (空)
-
+tile.thermaldynamics.duct.energySignalum.name=信素能量導管
+tile.thermaldynamics.duct.energySignalumEmpty.name=信素能量導管（空）
 
 tile.thermaldynamics.duct.energySuper.info=不會有殘存的能量.
 tile.thermaldynamics.duct.energySuper.name=穩定的低溫能量導管
@@ -99,10 +162,13 @@ tile.thermaldynamics.duct.energySuperEmpty.name=穩定的低溫能量導管 (空
 
 tile.thermaldynamics.duct.fluidBasic.info=如果裝載太冰或太熱的液體將會爆裂.
 tile.thermaldynamics.duct.fluidBasic.name=適度的液體導管
+tile.thermaldynamics.duct.fluidEnergy.name=信素液體導管
 tile.thermaldynamics.duct.fluidEnergy.info=同時傳送液體與RF.
 tile.thermaldynamics.duct.fluidEnergy.name=能量液體導管
 tile.thermaldynamics.duct.fluidHardened.info=可以裝載任何溫度的液體.
 tile.thermaldynamics.duct.fluidHardened.name=硬化液體導管
+tile.thermaldynamics.duct.fluidSuper.info=加壓時，傳輸速率可達到極限。
+tile.thermaldynamics.duct.fluidSuper.name=極速液體導管
 
 tile.thermaldynamics.duct.itemBasic.info=傳輸物品.
 tile.thermaldynamics.duct.itemBasic.name=物品導管
@@ -117,6 +183,12 @@ tile.thermaldynamics.duct.opaque.name=%s (不透明)
 
 tile.thermaldynamics.duct.structure.info=提供外部架構.
 tile.thermaldynamics.duct.structure.opaque.name=結構導管
+tile.thermaldynamics.duct.structureLight.name=照明導管
+
+tile.thermaldynamics.duct.transportBasic.name=旅行導管
+tile.thermaldynamics.duct.transportFrame.name=旅行導管（未處理）
+tile.thermaldynamics.duct.transportLinking.name=遠程連接旅行導管
+tile.thermaldynamics.duct.transportLongRange.name=遠程旅行導管
 
 tile.thermaldynamics.duct.vacuum.name=真空 %s
 
